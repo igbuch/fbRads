@@ -1,6 +1,6 @@
 ## we build the functions to support one given version of the API
 ## so the users should not be able to override that
-fbad_api_version <- 2.3
+fbad_api_version <- 2.4
 
 
 #' Get versioned base url
