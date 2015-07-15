@@ -160,7 +160,7 @@ fbad_get_adaccount_details  <- function(accountid, token){
     scope <- paste(
         c('name', 'account_id', 'account_status',
           'age', 'amount_spent', 'balance', 'capabilities',
-          'daily_spend_limit', 'end_advertiser', 'funding_source',
+          'end_advertiser', 'funding_source',
           'spend_cap', 'timezone_id', 'users'),
         collapse = ',')
 
